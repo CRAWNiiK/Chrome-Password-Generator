@@ -19,11 +19,13 @@ label {
 
 input[type="number"],
 button {
+  background-color: #333;
+  color: #fff;
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
   font-size: 14px;
-  border: 1px solid #ddd;
+  border: 1px solid #000;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -36,7 +38,7 @@ input[type="checkbox"],
 button {
   background-color: #4CAF50;
   color: white;
-  cursor: pointer;
+  cursor: pointer;  
 }
 
 button:hover {
@@ -50,9 +52,11 @@ button:hover {
 
 input[type="text"] {
   flex: 1;
+  background-color: #333;
+  color: red;
   padding: 8px;
   font-size: 14px;
-  border: 1px solid #ddd;
+  border: 1px solid #000;
   border-radius: 4px;
   box-sizing: border-box;
     width: 64%;
